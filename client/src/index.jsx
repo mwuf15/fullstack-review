@@ -23,7 +23,7 @@ class App extends React.Component {
       dataType: 'json',
       contentType: 'application/json',
       success: (data) => {
-        console.log('success')
+        console.log('success from ajax')
         this.setState({repos: data})
       },
       error: (data) => {
